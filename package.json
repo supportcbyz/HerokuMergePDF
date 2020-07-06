@@ -1,0 +1,24 @@
+{
+  "name": "pdfmerge",
+  "version": "1.0.0",
+  "description": "pdfmerge",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "jitendra",
+  "license": "ISC",
+  "dependencies": {
+    "blob": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "concatenateblobs": "^1.0.2",
+    "cross-blob": "^1.2.3",
+    "download-pdf": "^0.1.6",
+    "easy-pdf-merge": "^0.2.2",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "jsforce": "^1.9.3",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  }
+}
