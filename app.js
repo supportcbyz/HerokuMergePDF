@@ -174,7 +174,7 @@ function sfdcConnFn(){
             // you can change loginUrl to connect to sandbox or prerelease env.
             loginUrl : (process.env.url|| 'https://test.salesforce.com')
             });
-            conn.login((process.env.username||'dinesh@cloudbyz.com.test'), (process.env.password||'CbyzSpring@2018Piac3UklAklz75xGapSAqtmXm'), function(err, userInfo) {
+            conn.login((process.env.username), (process.env.password), function(err, userInfo) {
             if (err) { 
                 var resp={
                     con :'error',
